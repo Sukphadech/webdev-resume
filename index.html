@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resume | Sukphadech Thiangthit</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <div class="max-w-3xl mx-auto px-5 py-8">
+    <!-- Top actions -->
+    <div class="no-print flex justify-end gap-2 mb-4">
+      <button onclick="window.print()"
+        class="rounded-xl px-4 py-2 bg-slate-900 text-white hover:opacity-90">
+        พิมพ์ / บันทึกเป็น PDF
+      </button>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+      <div class="flex flex-col sm:flex-row gap-6 items-start">
+        <img src="img_profile.png" alt="profile"
+             class="w-28 h-28 rounded-2xl object-cover border border-slate-200" />
+        <div class="flex-1">
+          <h1 class="text-3xl font-bold tracking-tight">SUKPHADECH THIANGTHIT</h1>
+          <p class="text-slate-600 mt-1 text-lg">Junior Software Developer (Backend / Full-Stack)</p>
+          <p class="mt-4 text-slate-700 leading-relaxed">
+            Junior Software Developer with hands-on experience building real-world web systems,
+            including admin dashboards, REST APIs, and database-driven applications.
+            Experienced with Python, Django, Next.js, Supabase, and PostgreSQL.
+            Interested in backend and full-stack roles in startup or tech-driven teams.
+
+          </p>
+
+          <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-slate-700">
+            <span>📞 082-727-0482</span>
+            <span>✉️ sukphadech.th@gmail.com</span>
+            <span>📍 Bangkok</span>
+            <a class="text-blue-700 hover:underline" href="https://github.com/Sukphadech" target="_blank">
+              GitHub: github.com/Sukphadech
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sections -->
+    <main class="mt-6 space-y-6">
+      <!-- Experience -->
+      <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+        <h2 class="text-xl font-bold">ประสบการณ์ / โปรเจกต์เด่น</h2>
+
+        <div class="mt-4 space-y-5">
+          <div>
+            <div class="flex flex-wrap items-baseline gap-x-3">
+              <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+                <h3 class="font-semibold">Beyond25 – Registration & Payment Backend</h3>
+                <span class="text-sm text-slate-500">2024–2025</span>
+                <a class="text-blue-700 hover:underline text-sm"
+                    href="https://test-beyond25.netlify.app/"
+                    target="_blank" rel="noopener">
+                    Demo: test-beyond25.netlify.app
+                </a>
+                </div>
+              
+            </div>
+            <ul class="mt-2 list-disc pl-5 text-slate-700 space-y-1">
+              <li>Designed and implemented REST APIs for registration and payment tracking</li>
+              <li>Integrated Supabase (PostgreSQL) with validation and business logic</li>
+              <li>Built admin-side features for monitoring user status and payment confirmation</li>
+              <li>Iteratively improved the system based on real user feedback</li>
+            </ul>
+          </div>
+
+          <!-- NEW PROJECT -->
+          <div>
+            <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+              <h3 class="font-semibold">
+                Admin Image Gallery Management System (Next.js & Supabase)
+              </h3>
+              <span class="text-sm text-slate-500">2025</span>
+              <span class="text-sm text-amber-600 font-medium">
+                (In Progress)
+              </span>
+            </div>
+
+            <ul class="mt-2 list-disc pl-5 text-slate-700 space-y-1">
+              <li>Developing an admin dashboard for uploading, reordering, and deleting gallery images</li>
+              <li>Integrated Supabase Storage and PostgreSQL for image metadata management</li>
+              <li>Implemented controlled publish workflow to manage image visibility for end users</li>
+              <li>Actively improving UI/UX and extending features based on real usage scenarios</li>
+            </ul>
+          </div>
+
+
+          <div>
+            <div class="flex flex-wrap items-baseline gap-x-3">
+              <h3 class="font-semibold">Gold Price Notification System – Automation (Python)</h3>
+              <span class="text-sm text-slate-500">2025</span>
+            </div>
+            <ul class="mt-2 list-disc pl-5 text-slate-700 space-y-1">
+              <li>ทำระบบแจ้งเตือนราคาทองแบบอัตโนมัติผ่าน Telegram Bot</li>
+              <li>ตั้งเวลาให้ระบบทำงานด้วย cron jobs / scheduled tasks</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+        <h2 class="text-xl font-bold">ทักษะ (Technical Skills)</h2>
+
+        <div class="mt-4 grid sm:grid-cols-2 gap-4 text-slate-700">
+          <div>
+            <h3 class="font-semibold">Backend</h3>
+            <p class="mt-1">
+              Python, Django, REST APIs
+            </p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Database</h3>
+            <p class="mt-1">
+              PostgreSQL, MySQL, Supabase
+            </p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Frontend</h3>
+            <p class="mt-1">
+              HTML, CSS, JavaScript, TypeScript, Next.js, React
+            </p>
+          </div>
+
+          <div>
+            <h3 class="font-semibold">Tools & Platform</h3>
+            <p class="mt-1">
+              Git / GitHub, Supabase Storage, Automation, Telegram Bot
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Work -->
+      <section class="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+        <h2 class="text-xl font-bold">ประสบการณ์ทำงาน</h2>
+        <div class="mt-4">
+          <div class="flex flex-wrap items-baseline gap-x-3">
+            <h3 class="font-semibold">SAP Developer (ABAP) – CPF IT Center Co., Ltd.</h3>
+            <span class="text-sm text-slate-500">Apr 2023 – Nov 2023</span>
+          </div>
+          <ul class="mt-2 list-disc pl-5 text-slate-700 space-y-1">
+            <li>พัฒนา/ดูแลโปรแกรม SAP ABAP สำหรับโมดูล MM, SD, FI</li>
+            <li>ประสานงานกับทีม functional และแก้ปัญหา/ปรับปรุงประสิทธิภาพ</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="text-center text-xs text-slate-500 pb-2">
+        © <span id="y"></span> Sukphadech Thiangthit
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
